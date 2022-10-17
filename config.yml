@@ -1,2 +1,13 @@
 #This is the configuration file
 ---
+bus: 3 #sets location of bus
+pin_1:  0x40 #sets acknowledging device
+pin_2: 0x45 #sets another acknowledging device
+register: 
+  -0
+  -1
+  -2
+  -3
+  #sets number of registers on device 
+
+...
